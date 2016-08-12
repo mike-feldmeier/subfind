@@ -17,7 +17,7 @@ else {
 }
 
 function subfind(args) {
-  pathutils.walkFiles(__dirname, function(err, file) {
+  pathutils.walkFiles(process.cwd(), function(err, file) {
     if(err) throw err;
     var count = 0;
 
