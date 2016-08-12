@@ -1,0 +1,30 @@
+{
+  "name": "subfind",
+  "description": "More intelligent find-in-files",
+  "version": "0.0.1",
+  "preferGlobal": true,
+
+  "homepage": "https://github.com/mike-feldmeier/subfind",
+  "bugs": "https://github.com/mike-feldmeier/subfind/issues",
+  "author": "Mike Feldmeier <mike.feldmeier@gmail.com> (http://www.mikefeldmeier.com)",
+
+  "license": "MIT",
+  "keywords": [
+    "find",
+    "line",
+    "utilities",
+    "command"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mike-feldmeier/subfind.git"
+  },
+
+  "bin": {
+    "subfind": "subfind.js"
+  },
+
+  "dependencies": {
+    "pathutils": "latest"
+  }
+}
